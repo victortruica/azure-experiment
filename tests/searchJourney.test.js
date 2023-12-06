@@ -9,5 +9,5 @@ test ("Search Wikipedia", async ({ page }) => {
     await dashboard.enterSearchTextInSearchBox()
     await dashboard.getHeadingOfNextPage()
     await expect(dashboard.firstHeading).toHaveText('Search results')
-    
+    console.log("Great success")
 })
